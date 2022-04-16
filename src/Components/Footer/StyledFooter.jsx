@@ -3,6 +3,7 @@ import { Layout } from 'antd'
 import { Row, Col } from 'antd'
 import logo from './static/logoMarca.png'
 import styledComponents from 'styled-components'
+import { Link } from 'react-router-dom';
 
 const Footer = styledComponents(Layout)`
     background-color: rgba(118,192,189,0.3);
@@ -21,7 +22,7 @@ function StyledFooter(props) {
                 <StyledCol span={8}>
                     <img src={logo} alt="logo" width={50} height={50} />
                 </StyledCol>
-                <StyledCol span={8}>a1</StyledCol>
+                <StyledCol span={8}><Link to="/informacoes">Desenvolvedor</Link></StyledCol>
                 <StyledCol span={8}>a2</StyledCol>
             </Row>
         </Footer>

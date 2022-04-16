@@ -1,6 +1,5 @@
 import React from 'react'
 import { Layout } from 'antd'
-import Information from '../Information/Information'
 import { Row, Col } from 'antd'
 import styledComponents from 'styled-components'
 
@@ -12,12 +11,12 @@ const StyledCol = styledComponents(Col)`
     justify-content: center;
     align-items: center;
 `
-function StyledContent(props) {
+function StyledContent({ Children }) {
     return (
         <Content>
             <Row>
                 <StyledCol span={24}>
-                    <Information />
+                    {Children}
                 </StyledCol>
             </Row>
         </Content>
