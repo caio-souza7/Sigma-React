@@ -1,5 +1,5 @@
 import 'antd/dist/antd.css'
-import Routes from './routes/Routes'
+import { Routes } from 'react-router-dom'
 
 function App() {
   return (
