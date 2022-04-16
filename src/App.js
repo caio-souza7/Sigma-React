@@ -1,4 +1,3 @@
-import './App.css'
 import 'antd/dist/antd.css'
 import { Layout } from 'antd'
 import StyledContent from './Components/Content/StyledContent'
@@ -7,7 +6,7 @@ import StyledHeader from './Components/Header/StyledHeader'
 import styledComponents from 'styled-components'
 
 const StyleLayout = styledComponents(Layout)`
-  min-height: 100vh;
+  min-height: 100%;
 `
 function App() {
   return (
