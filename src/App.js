@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import 'antd/dist/antd.css'
+import { Layout } from 'antd'
+import StyledContent from './Components/Content/StyledContent'
+import StyledFooter from './Components/Footer/StyledFooter'
+import StyledHeader from './Components/Header/StyledHeader'
+import styledComponents from 'styled-components'
 
+const StyleLayout = styledComponents(Layout)`
+  min-height: 100vh;
+`
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <StyleLayout >
+      <StyledHeader />
+      <StyledContent />
+      <StyledFooter />
+    </StyleLayout >
+  )
 }
 
-export default App;
+export default App
