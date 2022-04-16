@@ -6,7 +6,7 @@ import StyledHeader from './Components/Header/StyledHeader'
 import styledComponents from 'styled-components'
 
 const StyleLayout = styledComponents(Layout)`
-  max-height: 100%;
+  min-height: 100vh;
 `
 function App() {
   return (
