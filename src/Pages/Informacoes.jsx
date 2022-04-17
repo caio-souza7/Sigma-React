@@ -9,7 +9,7 @@ import Information from '../Components/Information/Information'
 const StyleLayout = styledComponents(Layout)`
   min-height: 100vh;
 `
-const Informacoes = (props) => {
+function Informacoes(props) {
     return (
         <StyleLayout >
             <StyledHeader />

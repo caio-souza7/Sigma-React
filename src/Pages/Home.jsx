@@ -8,12 +8,12 @@ import styledComponents from 'styled-components'
 const StyleLayout = styledComponents(Layout)`
   min-height: 100vh;
 `
-const Home = (props) => {
+function Home(props) {
     return (
         <StyleLayout >
             <StyledHeader />
             <StyledContent>
-                index
+                <span>index</span>
             </StyledContent>
             <StyledFooter />
         </StyleLayout >

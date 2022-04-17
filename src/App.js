@@ -1,5 +1,5 @@
 import 'antd/dist/antd.css'
-import Routes from './Routes/Routes'
+import Routes from './Routes/Rota'
 
 function App() {
   return (
