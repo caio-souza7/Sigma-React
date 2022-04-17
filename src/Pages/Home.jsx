@@ -8,8 +8,7 @@ import styledComponents from 'styled-components'
 const StyleLayout = styledComponents(Layout)`
   min-height: 100vh;
 `
-
-function Home(props) {
+const Home = (props) => {
     return (
         <StyleLayout >
             <StyledHeader />
@@ -18,7 +17,7 @@ function Home(props) {
             </StyledContent>
             <StyledFooter />
         </StyleLayout >
-    );
+    )
 }
 
-export default Home;
+export default Home
