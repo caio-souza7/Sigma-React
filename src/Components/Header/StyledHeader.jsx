@@ -4,6 +4,7 @@ import { Row, Col } from 'antd'
 import logo from './static/logoMarca.png'
 import styledComponents from 'styled-components';
 import { ExportOutlined, ShopOutlined, UserOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 
 const Header = styledComponents(Layout)`
     background-color: rgb(229,229,229);
@@ -23,7 +24,7 @@ function StyledHeader(props) {
                 <StyledCol span={6}>
                     <img src={logo} alt="logo" width={50} height={50} />
                 </StyledCol>
-                <StyledCol span={6}><ShopOutlined /></StyledCol>
+                <StyledCol span={6}><Link to="/"><ShopOutlined /></Link></StyledCol>
                 <StyledCol span={6}><UserOutlined /></StyledCol>
                 <StyledCol span={6}><ExportOutlined /></StyledCol>
             </Row>

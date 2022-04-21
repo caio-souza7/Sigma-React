@@ -11,12 +11,12 @@ const StyledCol = styledComponents(Col)`
     justify-content: center;
     align-items: center;
 `
-function StyledContent({ Children }) {
+function StyledContent({children}) {
     return (
         <Content>
             <Row>
                 <StyledCol span={24}>
-                    {Children}
+                    {children}
                 </StyledCol>
             </Row>
         </Content>
