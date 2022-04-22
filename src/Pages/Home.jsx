@@ -4,6 +4,7 @@ import StyledContent from '../Components/Content/StyledContent'
 import StyledFooter from '../Components/Footer/StyledFooter'
 import StyledHeader from '../Components/Header/StyledHeader'
 import styledComponents from 'styled-components'
+import Carrossel from '../Components/Carrossel/Carrossel';
 
 const StyleLayout = styledComponents(Layout)`
   min-height: 100vh;
@@ -13,7 +14,7 @@ function Home(props) {
         <StyleLayout >
             <StyledHeader />
             <StyledContent>
-                <span>index</span>
+                <Carrossel />
             </StyledContent>
             <StyledFooter />
         </StyleLayout >

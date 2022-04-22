@@ -15,7 +15,7 @@ function Information(props) {
         <StyledCard
             hoverable
             style={{ width: 440 }}
-            cover={<img alt="Caio" src={perfil} />}
+            cover={<img alt="caio" src={perfil} />}
         >
             <a href="https://github.com/caio-souza7" target="_blank">
                 <Meta title="Desenvolvedor Web" description="Obrigado Deus" />
